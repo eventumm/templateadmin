@@ -1,0 +1,266 @@
+{% extends 'base-back.html.twig' %}
+{% block body %}
+<div class="container-scroller">
+    <!-- partial:../../partials/_sidebar.html -->
+
+    <!-- partial -->
+
+        <!-- partial -->
+        <div class="main-panel">
+            <div class="content-wrapper">
+
+                <div class="row">
+
+                    <div class="col-lg-6 grid-margin stretch-card">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 style="color:#FFA500"  class="card-title">Gestion des utilisateurs</h4>
+
+                                </p>
+                                <ul class="navbar-nav w-100">
+                                    <li class="nav-item w-100">
+                                        <form class="nav-link mt-2 mt-md-0 d-none d-lg-flex search">
+                                            <input type="text" id="myInput" onkeyup="myFunction()" class="form-control" placeholder="Chercher uilisateur">
+                                        </form>
+                                    </li>
+                                </ul>
+
+                                <div  id="myTable" class="table-responsive">
+                                    <table class="table">
+                                        <thead>
+                                        <tr><a>
+                                            <th>Profile</th>
+                                            <th> Numéro de tél</th>
+                                            <th>Date de creation</th>
+                                            <th>Action</th>
+                                            </a>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr><a>
+                                            <td>Jacob</td>
+                                            <td>53275531</td>
+                                            <td>12 May 2017</td>
+                                            <td><label class="badge badge-danger"> <i class="mdi mdi-delete"></i></label><label class="badge badge-info"><i class="mdi mdi-table-edit"></i></label><label class="badge badge-warning"><i class="mdi mdi-information-outline"></i></label></td>
+                                            </a> </tr>
+                                        <tr><a>
+                                            <td>Messsy</td>
+                                            <td>53275532</td>
+                                            <td>15 May 2017</td>
+                                            <td><label class="badge badge-danger"> <i class="mdi mdi-delete"></i></label><label class="badge badge-info"><i class="mdi mdi-table-edit"></i></label><label class="badge badge-warning"><i class="mdi mdi-information-outline"></i></label></td>
+                                            </a></tr>
+                                        <tr><a>
+                                            <td>John</td>
+                                            <td>53275533</td>
+                                            <td>14 May 2017</td>
+                                            <td><label class="badge badge-danger"> <i class="mdi mdi-delete"></i></label><label class="badge badge-info"><i class="mdi mdi-table-edit"></i></label><label class="badge badge-warning"><i class="mdi mdi-information-outline"></i></label></td>
+                                            </a> </tr>
+                                        <tr><a>
+                                            <td>Peter</td>
+                                            <td>53275534</td>
+                                            <td>16 May 2017</td>
+                                            <td><label class="badge badge-danger"> <i class="mdi mdi-delete"></i></label><label class="badge badge-info"><i class="mdi mdi-table-edit"></i></label><label class="badge badge-warning"><i class="mdi mdi-information-outline"></i></label></td>
+                                            </a></tr>
+                                        <tr><a>
+                                            <td>Dave</td>
+                                            <td>53275535</td>
+                                            <td>20 May 2017</td>
+                                            <td><label class="badge badge-danger"> <i class="mdi mdi-delete"></i></label><label class="badge badge-info"><i class="mdi mdi-table-edit"></i></label><label class="badge badge-warning"><i class="mdi mdi-information-outline"></i></label></td>
+                                            </a> </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 grid-margin stretch-card">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 style="color:#FFA500"  class="card-title">Gestion des utilisateurs</h4>
+
+                                </p>
+                                <ul class="navbar-nav w-100">
+                                    <li class="nav-item w-100">
+                                        <form class="nav-link mt-2 mt-md-0 d-none d-lg-flex search">
+                                            <input type="text" id="myInput" onkeyup="myFunction()" class="form-control" placeholder="Chercher uilisateur">
+                                        </form>
+                                    </li>
+                                </ul>
+
+                                <div  id="myTable" class="table-responsive">
+                                    <table class="table">
+                                        <thead>
+                                        <tr>
+                                            <th>User</th>
+                                            <th>Product</th>
+                                            <th>Sale</th>
+                                            <th>Status</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr><a>
+                                                <td>Jacob</td>
+                                                <td>53275531</td>
+                                                <td>12 May 2017</td>
+                                                <td><label class="badge badge-danger"> <i class="mdi mdi-delete"></i></label><label class="badge badge-info"><i class="mdi mdi-table-edit"></i></label><label class="badge badge-warning"><i class="mdi mdi-information-outline"></i></label></td>
+                                            </a> </tr>
+                                        <tr><a>
+                                                <td>Messsy</td>
+                                                <td>53275532</td>
+                                                <td>15 May 2017</td>
+                                                <td><label class="badge badge-danger"> <i class="mdi mdi-delete"></i></label><label class="badge badge-info"><i class="mdi mdi-table-edit"></i></label><label class="badge badge-warning"><i class="mdi mdi-information-outline"></i></label></td>
+                                            </a></tr>
+                                        <tr><a>
+                                                <td>John</td>
+                                                <td>53275533</td>
+                                                <td>14 May 2017</td>
+                                                <td><label class="badge badge-danger"> <i class="mdi mdi-delete"></i></label><label class="badge badge-info"><i class="mdi mdi-table-edit"></i></label><label class="badge badge-warning"><i class="mdi mdi-information-outline"></i></label></td>
+                                            </a> </tr>
+                                        <tr><a>
+                                                <td>Peter</td>
+                                                <td>53275534</td>
+                                                <td>16 May 2017</td>
+                                                <td><label class="badge badge-danger"> <i class="mdi mdi-delete"></i></label><label class="badge badge-info"><i class="mdi mdi-table-edit"></i></label><label class="badge badge-warning"><i class="mdi mdi-information-outline"></i></label></td>
+                                            </a></tr>
+                                        <tr><a>
+                                                <td>Dave</td>
+                                                <td>53275535</td>
+                                                <td>20 May 2017</td>
+                                                <td><label class="badge badge-danger"> <i class="mdi mdi-delete"></i></label><label class="badge badge-info"><i class="mdi mdi-table-edit"></i></label><label class="badge badge-warning"><i class="mdi mdi-information-outline"></i></label></td>
+                                            </a> </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-12 grid-margin stretch-card">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 style="color:#FFA500"  class="card-title"> Liste Voyage</h4>
+
+                                </p>
+                                <div class="table-responsive">
+                                    <table class="table table-striped">
+                                        <thead>
+                                        <tr>
+                                            <th> Partenaire </th>
+                                            <th> Destination </th>
+                                            <th> Participation </th>
+                                            <th> Prix </th>
+
+                                            <th> Deadline </th>
+                                        </tr>
+                                        </thead>
+                                        <tbody id="listing-table1">
+                                        </tbody>
+                                    </table>
+                                    <p align="right">
+                                        <a href="#" id="btn-prev1" class="badge badge-warning"><i class="mdi mdi-skip-previous-circle-outline"></i></a>
+                                        <a href="#" id="btn-next1" class="badge badge-warning"><i class="mdi mdi-skip-next-circle-outline"></i></a>
+                                    </p>
+                                    <p  style="color:#FFA500" align="right">Page <span id="page1"></span></p>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-12 grid-margin stretch-card">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 style="color:#FFA500" class="card-title">liste des évènements</h4>
+
+                                </p>
+                                <div class="table-responsive">
+                                    <table class="table table-dark">
+                                        <thead>
+                                        <tr>
+                                            <th> # </th>
+                                            <th> Evènement </th>
+                                            <th> Prix </th>
+                                            <th> Deadline </th>
+                                            <th> Action </th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td> 1 </td>
+                                            <td> Herman Beck </td>
+                                            <td> $ 77.99 </td>
+                                            <td> May 15, 2015 </td>
+                                            <td><label class="badge badge-danger"> <i class="mdi mdi-delete"></i></label><label class="badge badge-info"><i class="mdi mdi-table-edit"></i></label><label class="badge badge-warning"><i class="mdi mdi-information-outline"></i></label></td>
+
+                                        </tr>
+                                        <tr>
+                                            <td> 2 </td>
+                                            <td> Messsy Adam </td>
+                                            <td> $245.30 </td>
+                                            <td> July 1, 2015 </td>
+                                            <td><label class="badge badge-danger"> <i class="mdi mdi-delete"></i></label><label class="badge badge-info"><i class="mdi mdi-table-edit"></i></label><label class="badge badge-warning"><i class="mdi mdi-information-outline"></i></label></td>
+
+                                        </tr>
+                                        <tr>
+                                            <td> 3 </td>
+                                            <td> John Richards </td>
+                                            <td> $138.00 </td>
+                                            <td> Apr 12, 2015 </td>
+                                            <td><label class="badge badge-danger"> <i class="mdi mdi-delete"></i></label><label class="badge badge-info"><i class="mdi mdi-table-edit"></i></label><label class="badge badge-warning"><i class="mdi mdi-information-outline"></i></label></td>
+
+
+                                        </tr>
+                                        <tr>
+                                            <td> 4 </td>
+                                            <td> Peter Meggik </td>
+                                            <td> $ 77.99 </td>
+                                            <td> May 15, 2015 </td>
+                                            <td><label class="badge badge-danger"> <i class="mdi mdi-delete"></i></label><label class="badge badge-info"><i class="mdi mdi-table-edit"></i></label><label class="badge badge-warning"><i class="mdi mdi-information-outline"></i></label></td>
+
+                                        </tr>
+                                        <tr>
+                                            <td> 5 </td>
+                                            <td> Edward </td>
+                                            <td> $ 160.25 </td>
+                                            <td> May 03, 2015 </td>
+                                            <td><label class="badge badge-danger"> <i class="mdi mdi-delete"></i></label><label class="badge badge-info"><i class="mdi mdi-table-edit"></i></label><label class="badge badge-warning"><i class="mdi mdi-information-outline"></i></label></td>
+
+                                        </tr>
+                                        <tr>
+                                            <td> 6 </td>
+                                            <td> John Doe </td>
+                                            <td> $ 123.21 </td>
+                                            <td> April 05, 2015 </td>
+                                            <td><label class="badge badge-danger"> <i class="mdi mdi-delete"></i></label><label class="badge badge-info"><i class="mdi mdi-table-edit"></i></label><label class="badge badge-warning"><i class="mdi mdi-information-outline"></i></label></td>
+
+                                        </tr>
+                                        <tr>
+                                            <td> 7 </td>
+                                            <td> Henry Tom </td>
+                                            <td> $ 150.00 </td>
+                                            <td> June 16, 2015 </td>
+                                            <td><label class="badge badge-danger"> <i class="mdi mdi-delete"></i></label><label class="badge badge-info"><i class="mdi mdi-table-edit"></i></label><label class="badge badge-warning"><i class="mdi mdi-information-outline"></i></label></td>
+
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- content-wrapper ends -->
+            <!-- partial:../../partials/_footer.html -->
+
+            <!-- partial -->
+        </div>
+        <!-- main-panel ends -->
+    </div>
+    <!-- page-body-wrapper ends -->
+</div>
+{% endblock %}
